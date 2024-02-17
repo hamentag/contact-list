@@ -2,7 +2,6 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 .logo {
@@ -39,4 +38,21 @@
 
 .read-the-docs {
   color: #888;
+}
+
+table{
+  width: 550px;
+}
+
+caption{
+  background-color: rgba(135, 241, 223, 0.461);
+}
+tr:nth-of-type(even){
+  background-color: rgba(209, 209, 209, 0.461);
+}
+.back-button{
+  border: 1px solid rgba(128, 128, 128, 0.521);
+  float: right;
+  margin: 5px;
+  padding: 3px 15px;
 }
